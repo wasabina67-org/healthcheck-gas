@@ -13,7 +13,7 @@ function myFunction() {
         throw new Error('Not healthy😭 | url: ' + url + ' | code: ' + code);
       }
     } catch (e) {
-      // e
+      Logger.log(e);
     }
   })
 }
