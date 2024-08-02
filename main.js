@@ -10,7 +10,7 @@ function myFunction() {
       const resp = UrlFetchApp.fetch(url, { muteHttpExceptions: true });
       const code = resp.getResponseCode();
       if (code !== 200) {
-        throw new Error('Not healthy😭 | url: ' + url + ' | code: ' + code);
+        throw new Error('Not healthy | url: ' + url + ' | code: ' + code);
       }
     } catch (e) {
       Logger.log(e);
