@@ -1,8 +1,9 @@
 function myFunction() {
   const urls = [
-    'https://example.com/',
-    'https://example.com/',
-    'https://example.com/',
+    'https://wasabina67.github.io/',
+    'https://marunaka-food-corp.github.io/caremeat-carefish/',
+    'https://marunaka-food-corp.github.io/tidus-shikaniku-curry/',
+    'https://marunaka-food-corp.github.io/ondotori-ws-settings/',
   ];
 
   urls.forEach((url) => {
