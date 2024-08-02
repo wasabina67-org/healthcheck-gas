@@ -14,6 +14,8 @@ function myFunction() {
       }
     } catch (e) {
       Logger.log(e);
+      const recipient = Session.getActiveUser().getEmail();
+      GmailApp.sendEmail(recipient, 'healthcheck-gas', e);
     }
   })
 }
