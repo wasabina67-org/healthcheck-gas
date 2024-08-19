@@ -10,6 +10,7 @@ function myFunction() {
 
   const otherUrls = [
     'http://www.marunaka-food.co.jp/',
+    'https://www.garagemash.com/',
   ];
   healthcheck(otherUrls);
 }
