@@ -7,6 +7,7 @@ function myFunction() {
     'https://garage-mash.com/',
   ];
 
+  healthcheck(urls);
 }
 
 function healthcheck(urls) {
