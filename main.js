@@ -4,6 +4,7 @@ function myFunction() {
     'https://marunaka-food-corp.github.io/caremeat-carefish/',
     'https://marunaka-food-corp.github.io/tidus-shikaniku-curry/',
     'https://marunaka-food-corp.github.io/ondotori-ws-settings/',
+    'https://garage-mash.com/',
   ];
 
   urls.forEach((url) => {
