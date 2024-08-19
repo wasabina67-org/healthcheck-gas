@@ -7,6 +7,9 @@ function myFunction() {
     'https://garage-mash.com/',
   ];
 
+}
+
+function healthcheck(urls) {
   urls.forEach((url) => {
     try {
       const resp = UrlFetchApp.fetch(url, { muteHttpExceptions: true });
