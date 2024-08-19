@@ -6,13 +6,11 @@ function myFunction() {
     'https://marunaka-food-corp.github.io/ondotori-ws-settings/',
     'https://garage-mash.com/',
   ];
-
   healthcheck(urls);
 
   const otherUrls = [
     'http://www.marunaka-food.co.jp/',
   ];
-
   healthcheck(otherUrls);
 }
 
