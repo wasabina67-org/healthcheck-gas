@@ -8,6 +8,12 @@ function myFunction() {
   ];
 
   healthcheck(urls);
+
+  const otherUrls = [
+    'http://www.marunaka-food.co.jp/',
+  ];
+
+  healthcheck(otherUrls);
 }
 
 function healthcheck(urls) {
