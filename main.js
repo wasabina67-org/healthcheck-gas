@@ -25,7 +25,8 @@ function healthcheck(urls) {
       }
     } catch (e) {
       Logger.log(e);
-      const recipient = Session.getActiveUser().getEmail();
+      // const recipient = Session.getActiveUser().getEmail();
+      const recipient = 'wasabina67@gmail.com';
       GmailApp.sendEmail(recipient, 'healthcheck-gas', e);
     }
   })
