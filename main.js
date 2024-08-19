@@ -1,12 +1,12 @@
 function myFunction() {
-  const urls = [
+  const ownUrls = [
     'https://wasabina67.github.io/',
     'https://marunaka-food-corp.github.io/caremeat-carefish/',
     'https://marunaka-food-corp.github.io/tidus-shikaniku-curry/',
     'https://marunaka-food-corp.github.io/ondotori-ws-settings/',
     'https://garage-mash.com/',
   ];
-  healthcheck(urls);
+  healthcheck(ownUrls);
 
   const otherUrls = [
     'http://www.marunaka-food.co.jp/',
